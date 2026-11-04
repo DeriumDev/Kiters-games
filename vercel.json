@@ -1,12 +1,16 @@
 {
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "https://deriumdev.github.io/Kiters-games/",
+      "permanent": false
+    }
+  ],
   "headers": [
     {
       "source": "/(.*)",
       "headers": [
-        {
-          "key": "Content-Security-Policy",
-          "value": "frame-ancestors *"
-        }
+        { "key": "Content-Security-Policy", "value": "frame-ancestors *" }
       ]
     }
   ]
