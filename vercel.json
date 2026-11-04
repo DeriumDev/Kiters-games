@@ -4,4 +4,10 @@
       "source": "/(.*)",
       "headers": [
         {
-          "key": "Content
+          "key": "Content-Security-Policy",
+          "value": "frame-ancestors *"
+        }
+      ]
+    }
+  ]
+}
