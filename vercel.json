@@ -1,4 +1,3 @@
-
 {
   "headers": [
     {
@@ -6,11 +5,9 @@
       "headers": [
         {
           "key": "Content-Security-Policy",
-          "value": "frame-ancestors 'self' https://kiters-3.vercel.app"
+          "value": "frame-ancestors 'self' https://kiters-3.vercel.app https://localhost"
         }
       ]
     }
   ]
 }
-
-
